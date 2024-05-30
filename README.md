@@ -1,2 +1,2 @@
 # ansible-scripts
-Test repo used for testing Ansible
+Test repository used to store Ansible playbooks and configurations.
