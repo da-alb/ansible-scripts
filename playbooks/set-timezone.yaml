@@ -1,0 +1,6 @@
+- name: Shell module example
+  hosts: all
+  tasks:
+  - name: Check system information
+    shell:
+      "timedatectl set-timezone Europe/Rome"

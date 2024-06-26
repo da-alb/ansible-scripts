@@ -1,0 +1,17 @@
+- hosts: all
+  become: yes
+  tasks:
+    - name: apt update and install generic tools I always need
+      apt:
+        name: 
+        - htop
+        - nano
+        - iftop
+        - bind9-utils
+        - tcpdump
+        - unzip
+        - gzip
+        - net-tools
+        - mtr-tiny
+        - iptables-persistent
+        update_cache: yes
