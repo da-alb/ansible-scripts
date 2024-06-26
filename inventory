@@ -1,1 +1,15 @@
-192.168.88.10
+[mycloud]
+one.alban.cloud
+two.alban.cloud
+mail.alban.cloud
+file.alban.cloud
+
+[mail]
+mail.alban.cloud
+
+[file]
+file.alban.cloud
+
+[test]
+one.alban.cloud
+two.alban.cloud
