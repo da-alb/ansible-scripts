@@ -1,0 +1,7 @@
+- hosts: all
+  become: yes
+  tasks:
+    - name: Remove package
+      apt:
+        name: bind9-utils
+        state: absent

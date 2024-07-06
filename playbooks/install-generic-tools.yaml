@@ -3,15 +3,17 @@
   tasks:
     - name: apt update and install generic tools I always need
       apt:
-        name: 
+        name: "{{ item }}"
+        update_cache: yes
+      loop:
         - htop
         - nano
         - iftop
-        - bind9-utils
+        - bind9-dnsutils
         - tcpdump
         - unzip
         - gzip
         - net-tools
         - mtr-tiny
         - iptables-persistent
-        update_cache: yes
+        - tldr
